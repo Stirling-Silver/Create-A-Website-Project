@@ -1,17 +1,40 @@
-html {
-    background: url("img/Background.jpg") no-repeat center fixed;
+html { 
+    background: url("img/Better-Background.jpg") no-repeat center fixed;
     background-size: cover;
+}
+
+head {
+    text-align: center;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    margin-top: 300px;
+    font-size: xx-large;
 }
 
-body {
+p {
     text-align: center;
-    width: auto;
+    color: goldenrod;
+    font-size: larger;
+}
+
+h3 {
+    text-align: center;
+    color: ghostwhite;
+    margin: 50px; 
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 
+.Links {
+    font-size: x-large;
+    color: ghostwhite;
+    text-decoration: none;
+}
 
-
+.quote {
+    color: ghostwhite;
+}
