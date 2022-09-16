@@ -8,32 +8,25 @@ head {
 }
 
 h1 {
-    background-color: ghostwhite;
     text-align: center;
     color: darkorchid;
-    margin-top: 270px;
     font-size: xx-large;
     font-weight: bolder;
 }
 
 p {
-    background-color: ghostwhite;
     text-align: center;
     color: goldenrod;
     font-size: larger;
 }
 
 h3 {
+    background-color: ghostwhite;
     text-align: center;
-    background-color: aliceblue;
     color: gold;
     margin: 50px; 
     padding-left: 200px;
     padding-right: 200px;
-}
-
-.quote {
-    color: ghostwhite;
 }
 
 a {
@@ -45,6 +38,9 @@ a {
 
 body {
     background-color: ghostwhite;
-}
-
-
+    width: 500px;
+    margin: auto;
+    padding: 400px 100px;
+    border: solid lightskyblue 5px;
+  }
+  
