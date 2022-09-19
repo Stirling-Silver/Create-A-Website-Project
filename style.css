@@ -8,7 +8,6 @@ head {
 }
 
 h1 {
-    background-color: ghostwhite;
     text-align: center;
     color: darkorchid;
     margin-top: 270px;
@@ -17,7 +16,6 @@ h1 {
 }
 
 p {
-    background-color: ghostwhite;
     text-align: center;
     color: goldenrod;
     font-size: larger;
@@ -25,7 +23,6 @@ p {
 
 h3 {
     text-align: center;
-    background-color: aliceblue;
     color: gold;
     margin: 50px; 
     padding-left: 200px;
@@ -43,8 +40,5 @@ a {
     padding: 0px 30px;
 }
 
-body {
-    background-color: ghostwhite;
-}
 
 

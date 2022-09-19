@@ -24,23 +24,27 @@ h3 {
     background-color: ghostwhite;
     text-align: center;
     color: gold;
-    margin: 50px; 
+    margin: 20px; 
     padding-left: 200px;
     padding-right: 200px;
 }
 
+
 a {
-    color: ghostwhite;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
     padding: 0px 30px;
 }
 
+
+
 body {
-    background-color: ghostwhite;
+    background-color: white;
     width: 500px;
     margin: auto;
-    padding: 400px 100px;
-    border: solid lightskyblue 5px;
+    padding: 0px 100px;
+    border: solid darkblue 5px;
   }
+
   
