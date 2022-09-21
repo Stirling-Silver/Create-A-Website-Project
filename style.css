@@ -1,5 +1,5 @@
 html { 
-    background: url("img/Best\ background.jpg") no-repeat center fixed;
+    background: url("img/Home\ page\ real.Jpeg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -10,7 +10,7 @@ head {
 h1 {
     text-align: center;
     color: darkorchid;
-    margin-top: 270px;
+    margin-top: 410px;
     font-size: xx-large;
     font-weight: bolder;
 }
