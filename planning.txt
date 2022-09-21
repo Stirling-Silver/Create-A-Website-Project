@@ -6,4 +6,4 @@ GPU = Optical nerve done
 
 CPU = Parital Lobes, mainly the left parital lobes done
 
-Power supply, maybe
+Power supply = The heart 
