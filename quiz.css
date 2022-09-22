@@ -1,0 +1,61 @@
+html { 
+    background: url("img/Best\ background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+head {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #61acf5;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+h3 {
+    background-color: ghostwhite;
+    text-align: center;
+    color: gold;
+    margin: 20px; 
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+a {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding: 0px 30px;
+}
+
+
+body {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 0px 100px;
+    border: solid darkblue 5px;
+  }
+
+button {
+    color: black;
+    background-color: #61acf5;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+button:hover {
+    color: #61acf5;
+    background-color: black;
+    cursor: pointer;
+}

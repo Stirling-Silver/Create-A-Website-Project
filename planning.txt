@@ -1,6 +1,6 @@
-Ram = Pre-frontal lobe
+Ram = Pre-frontal lobe done
 
-Hard drive = Hippocampus
+Hard drive = Hippocampus done
 
 GPU = Optical nerve done
 

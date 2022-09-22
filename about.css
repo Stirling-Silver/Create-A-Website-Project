@@ -9,14 +9,14 @@ head {
 
 h1 {
     text-align: center;
-    color: darkorchid;
+    color: #61acf5;
     font-size: xx-large;
     font-weight: bolder;
 }
 
 p {
     text-align: center;
-    color: goldenrod;
+    color: black;
     font-size: larger;
 }
 
