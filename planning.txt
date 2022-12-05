@@ -9,3 +9,6 @@ CPU = Parital Lobes, mainly the left parital lobes done
 Power supply = The heart done
 
 cpu motherboard gpu ssd/hdd ram psu
+
+
+Make the quiz show your grade, but also make it show what questions you got right or wrong.
