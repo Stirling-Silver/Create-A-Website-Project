@@ -65,3 +65,11 @@ button:hover {
     font-size: larger;
     color: black;
 }
+
+input {
+    width: 100px;
+}
+
+span {
+    color: blue;
+}
