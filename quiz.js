@@ -45,6 +45,7 @@ function Grading() {
   } else {
     document.getElementById("Q6R").innerHTML = "Incorrect";
   }
+  if (T > 6) T = 6;
   let FT = (T / 6) * 100;
   document.getElementById("GPA").innerHTML = `Final Grade: ${T}/6 (${FT}%)`;
   document.getElementById("GPA").addEventListener("click", Grading);
@@ -69,7 +70,5 @@ function Grading() {
     document.getElementById("R").innerHTML =
       "STOP BREAKING MY CODE! JUST PRESS THE BUTTON ONCE PER ATTEMPT!";
   }
-
-  if (T > 6) T = 6;
 }
 //Need 6 if statments
