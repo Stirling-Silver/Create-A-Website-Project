@@ -51,10 +51,25 @@ function Grading() {
 
   if (T === 0) {
     document.getElementById("R").innerHTML = "This is a massive skill issue.";
-  } else if () {
-    document.getElementById("R").innerHTML = "This is a massive skill issue.";
-  } else if () {
-
+  } else if (T === 1) {
+    document.getElementById("R").innerHTML = "This is a big skill issue.";
+  } else if (T === 2) {
+    document.getElementById("R").innerHTML = "This is a medium skill issue.";
+  } else if (T === 3) {
+    document.getElementById("R").innerHTML = "This is a small skill issue.";
+  } else if (T === 4) {
+    document.getElementById("R").innerHTML = "You barely passed.";
+  } else if (T === 5) {
+    document.getElementById("R").innerHTML =
+      "1 right answer short of a gold star.";
+  } else if (T === 6) {
+    document.getElementById("R").innerHTML =
+      "You got an A! It stands for average.";
+  } else {
+    document.getElementById("R").innerHTML =
+      "STOP BREAKING MY CODE! JUST PRESS THE BUTTON ONCE PER ATTEMPT!";
   }
+
+  if (T > 6) T = 6;
 }
 //Need 6 if statments
