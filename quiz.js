@@ -48,7 +48,6 @@ function Grading() {
   if (T > 6) T = 6;
   let FT = (T / 6) * 100;
   document.getElementById("GPA").innerHTML = `Final Grade: ${T}/6 (${FT}%)`;
-  document.getElementById("GPA").addEventListener("click", Grading);
 
   if (T === 0) {
     document.getElementById("R").innerHTML = "This is a massive skill issue.";
