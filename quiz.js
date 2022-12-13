@@ -1,6 +1,7 @@
 document.getElementById("Grading").addEventListener("click", Grading);
-
+//Function
 function Grading() {
+  //Variables
   let T = 0;
   let Q1G = document.getElementById("Q1").value;
   let Q2G = document.getElementById("Q2").value;
@@ -8,7 +9,7 @@ function Grading() {
   let Q4G = document.getElementById("Q4").value;
   let Q5G = document.getElementById("Q5").value;
   let Q6G = document.getElementById("Q6").value;
-
+  //Processes
   if (Q1G === "Parital Lobes" || Q1G === "The Parital Lobes") {
     document.getElementById("Q1R").innerHTML = "Correct";
     console.log((T += 1));
@@ -45,10 +46,11 @@ function Grading() {
   } else {
     document.getElementById("Q6R").innerHTML = "Incorrect";
   }
+  //Output 1/2
   if (T > 6) T = 6;
   let FT = (T / 6) * 100;
   document.getElementById("GPA").innerHTML = `Final Grade: ${T}/6 (${FT}%)`;
-
+  //Output 2/2
   if (T === 0) {
     document.getElementById("R").innerHTML = "This is a massive skill issue.";
   } else if (T === 1) {
@@ -70,4 +72,4 @@ function Grading() {
       "Imma be real with you, I have no idea how you got this score. GG WP.";
   }
 }
-//Need 6 if statments
+//End of code
