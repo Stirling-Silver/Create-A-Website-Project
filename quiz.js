@@ -1,7 +1,7 @@
 document.getElementById("Grading").addEventListener("click", Grading);
-let T = 0;
 
 function Grading() {
+  let T = 0;
   let Q1G = document.getElementById("Q1").value;
   let Q2G = document.getElementById("Q2").value;
   let Q3G = document.getElementById("Q3").value;
@@ -67,7 +67,7 @@ function Grading() {
       "You got an A! It stands for average.";
   } else {
     document.getElementById("R").innerHTML =
-      "STOP BREAKING MY CODE! JUST PRESS THE BUTTON ONCE PER ATTEMPT!";
+      "Imma be real with you, I have no idea how you got this score. GG WP.";
   }
 }
 //Need 6 if statments
